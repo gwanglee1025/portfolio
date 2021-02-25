@@ -92,12 +92,20 @@ button {
 }
 
 #navbar {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
   align-items: center;
   color: var(--color-white);
   padding: 16px;
+  background-color: transparent;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark{
+  background-color: var(--color-pink);
+  padding: 8px;
 }
 
 .navbar__menu {
@@ -117,9 +125,7 @@ button {
 }
 
 .navbar__menu__item.active {
-    /*
   border: 1px solid var(--color-white);
-  */
 }
 .navbar__menu__item:hover {
   background-color: var(--color-dark-pink);
@@ -141,6 +147,7 @@ button {
   background: url("imgs/homebackground.png") center/cover no-repeat;
   padding: 40px;
   text-align: center;
+  padding-top: 120px;
 }
 
 .home__avatar {

@@ -116,7 +116,6 @@
     </section>
 
 
-
     <!-- skill -->
     <section id="skill" class="section">
         <div class="section__container">
@@ -200,70 +199,69 @@
     </section>
 
 
-
     <!-- work -->
     <section id="work" class="section">
         <div class="section__container">
             <h1>My Work</h1>
             <h3>Projects</h3>
             <div class="work__categories">
-                <button class="category__btn">All<span class="category__count">7</span></button>
-                <button class="category__btn">Front-end<span class="category__count">3</span></button>
-                <button class="category__btn">Back-end<span class="category__count">2</span></button>
-                <button class="category__btn">Mobile<span class="category__count">2</span></button>
+                <button class="category__btn active" data-filter="*">All<span class="category__count">7</span></button>
+                <button class="category__btn" data-filter="front-end">Front-end<span class="category__count">3</span></button>
+                <button class="category__btn" data-filter="back-end">Back-end<span class="category__count">2</span></button>
+                <button class="category__btn" data-filter="mobile">Mobile<span class="category__count">2</span></button>
             </div>
 
             <div class="work__projects">
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="front-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="front-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="mobile">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="mobile">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="front-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="back-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="front-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
                         <span>Clone Coding</span>
                     </div>
                 </a>
-                <a href="#" class="project" target="black">
+                <a href="#" class="project" target="black" data-type="back-end">
                     <img src="imgs/projects/youtube.png" alt="" class="project__img">
                     <div class="project__description">
                         <h3>Youtube Site</h3>
@@ -273,6 +271,8 @@
             </div>
         </div>
     </section>
+
+
     <!-- testimonial -->
     <section id="testimonial" class="section">
         <div class="section__container">
@@ -296,6 +296,8 @@
             </div>
         </div>
     </section>
+
+
     <!-- contact -->
     <section id="contact" class="section">
         <h1 class="contact__title">Let's Talk</h1>
@@ -310,5 +312,10 @@
         </div>
         <p class="contact__rights">2020 Gwang Hyeon Lee - All rights reserved</p>
     </section>
+
+    <!-- Arrow Up-->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </body>
 </html>
